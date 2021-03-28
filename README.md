@@ -5,8 +5,12 @@ Tested agaisnt Wikipedia Example
 [1101.101] = 13.625 / https://en.wikipedia.org/wiki/Radix_point
 
 parameter used 
+
 bin_vector = [1,1,0,1,1,0,1]
+
 radix = 4;
 
+
 result
+
 dec = 13.6250
