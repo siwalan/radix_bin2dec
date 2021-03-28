@@ -4,9 +4,9 @@ MATLAB function to convert binary array to number. MATLAB default bin2dec does n
 Tested agaisnt Wikipedia Example 
 [1101.101] = 13.625 ( https://en.wikipedia.org/wiki/Radix_point)
 
-Parameter Used 
-bin_vector = [1,1,0,1,1,0,1]
+Parameter Used :
+bin_vector = [1,1,0,1,1,0,1];
 radix = 4;
 
-Results
-dec = 13.6250
+Results:
+dec = 13.6250;
