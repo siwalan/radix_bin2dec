@@ -1,5 +1,5 @@
 function dec = radix_bin2dec(bin_vector, radix)
-    if (ischar(bin_vector) ~= 0)
+    if (ischar(bin_vector) == 0)
         for i=1:strlength(bin_vector)
             bin_vector(i) = str2num(bin_vector(i));
         end
