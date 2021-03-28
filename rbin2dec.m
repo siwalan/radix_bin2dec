@@ -7,7 +7,6 @@ function dec = radix_bin2dec(bin_vector, radix)
     dec = 0;
     vector_length = length(bin_vector);
     for i=1:vector_length
-        vector_length-radix-i
         dec = dec + bin_vector(i) * 2^(vector_length-radix-i);
     end
 end
